@@ -14,15 +14,15 @@ public class GetUser {
       throw e;
     }
 
-    if (resp.getString("message").equals("user exist")) {
+    if (resp !=null && resp.getString("message").equals("user exist")) {
       return true;
     }
     return false;
   }
 
   private String buildUri(String userId) {
-    return new String("http://192.168.1.141:8080/fingerService-api/search?user_id="+userId);
-    //return new String("https://192.168.1.141:8443/fingerService-api/search?user_id=" + userId);
+    //return new String("http://192.168.1.141:8080/fingerService-api/search?user_id="+userId);
+    return new String("https://192.168.1.141:8443/fingerService-api/search?user_id=" + userId);
   }
 
 }

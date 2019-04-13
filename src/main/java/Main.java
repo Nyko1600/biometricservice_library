@@ -5,5 +5,6 @@ public class Main {
     GetUser getUser=new GetUser();
    boolean a= getUser.userHasConfirmed("123456");
     System.out.println(a);
+
   }
 }
