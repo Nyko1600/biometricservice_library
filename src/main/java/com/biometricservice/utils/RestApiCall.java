@@ -1,8 +1,10 @@
 package com.biometricservice.utils;
 
 import okhttp3.*;
+import org.apache.axis.AxisProperties;
 import org.json.JSONObject;
 import javax.net.ssl.SSLSocketFactory;
+import com.biometricservice.utils.AxisSSLSocketFactory;
 
 import static java.lang.Thread.sleep;
 
@@ -10,6 +12,10 @@ public enum RestApiCall {
   INSTANCE;
   public JSONObject getMethod(String url){
     try {
+//      com.biometricservice.utils.AxisSSLSocketFactory.setKeystorePassword("123456");
+//      com.biometricservice.utils.AxisSSLSocketFactory.setResourcePathToKeystore("utilities/keystore.jks");
+//      AxisProperties.setProperty("axis.socketSecureFactory", "utilities.AxisSSLSocketFactory");
+
       OkHttpClient client = new OkHttpClient();
       Response response=null;
 

@@ -14,7 +14,7 @@ import org.apache.log4j.Logger;
 
 public class AxisSSLSocketFactory extends JSSESocketFactory implements SecureSocketFactory{
   private static Logger logger = Logger.getLogger(AxisSSLSocketFactory.class);
-  private static String MY_KEYSTORE_PASSWORD = null;  // "elblogdeselo";
+  private static String MY_KEYSTORE_PASSWORD = "123456";  // "elblogdeselo";
 
   // local keystore file (contains the self-signed certificate from the server)
   private static String RESOURCE_PATH_TO_KEYSTORE = null;

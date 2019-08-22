@@ -22,7 +22,8 @@ public class GetUser {
 
   private String buildUri(String userId) {
     //return new String("http://192.168.1.141:8080/fingerService-api/search?user_id="+userId);
-    return new String("https://192.168.1.141:8443/fingerService-api/search?user_id=" + userId);
+    //return new String("https://test4.ddns.net:8443/customer/5" );
+    return new String("https://test4.ddns.net:8443/fingerService-api/search?user_id"+userId);
   }
 
 }
