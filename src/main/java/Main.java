@@ -1,10 +1,10 @@
 import com.biometricservice.GetUser;
 
 public class Main {
-  public static void main(String[] args) {
+  public boolean validateAuth(String userId) {
     GetUser getUser=new GetUser();
-   boolean a= getUser.userHasConfirmed("123456");
-    System.out.println(a);
-
+   boolean answer= getUser.userHasConfirmed(userId);
+    System.out.println(answer);
+  return answer;
   }
 }
