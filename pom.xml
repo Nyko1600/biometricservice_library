@@ -7,6 +7,20 @@
   <groupId>biometricservice.library</groupId>
   <artifactId>biometricservice.library</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20180813</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>3.9.0</version>
+    </dependency>
+
+  </dependencies>
 
 
 </project>
