@@ -14,4 +14,10 @@ public class RestApiCallTest {
     assertEquals(resp.getString("resp"),"pong");
   }
 
+  @Test
+  public void testUserNotFound() {
+    String uri ="https://test4.ddns.net:8443/fingerService-api/search?user_id=123456";
+    JSONObject resp = RestApiCall.INSTANCE.getMethod(uri);
+    assertEquals(resp,null);
+  }
 }
