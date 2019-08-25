@@ -1,11 +1,11 @@
-package com.biometricservice;
+package com.biometricservice.library.controller;
 
-import com.biometricservice.utils.RestApiCall;
+import com.biometricservice.library.service.RestApiCall;
 import org.json.JSONObject;
 
 public class GetUser {
 
-  public boolean userHasConfirmed(String userId) {
+  public boolean userHasConfirmed(String userId) throws Exception {
     String uri = buildUri(userId);
     JSONObject resp = null;
     try {
@@ -21,9 +21,6 @@ public class GetUser {
   }
 
   private String buildUri(String userId) {
-    //return new String("http://192.168.1.141:8080/fingerService-api/search?user_id="+userId);
-    //return new String("https://test4.ddns.net:8443/customer/5" );
     return new String("https://test4.ddns.net:8443/fingerService-api/search?user_id"+userId);
   }
-
 }

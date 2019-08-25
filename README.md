@@ -1,1 +1,0 @@
-# biometricservice_library
