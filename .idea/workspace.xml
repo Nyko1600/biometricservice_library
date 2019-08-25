@@ -4,6 +4,7 @@
     <list default="true" id="d36d0272-ab2a-456f-9dc9-8181d89ef7a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biometricservice/library/service/RestApiCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biometricservice/library/service/RestApiCall.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,23 +24,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="311" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="311" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -50,17 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="120">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/biometricservice/library/controller/GetUser.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RestApiCallTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="166">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,11 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/biometricservice/library/controller/GetUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/biometricservice/library/service/RestApiCall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="201">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +98,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,9 +109,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/biometricservice/library/controller/GetUser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/biometricservice/library/controller/GetUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/biometricservice/library/service/RestApiCall.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RestApiCallTest.java" />
       </list>
     </option>
   </component>
@@ -156,6 +170,21 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="biometricservicelibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biometricservice_library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biometricservicelibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biometricservice_library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566598017615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566692071514" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -183,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RestApiCallTest.testPingOk">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -192,6 +221,39 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestApiCallTest.testPingOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biometricservice_library" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestApiCallTest" />
+      <option name="METHOD_NAME" value="testPingOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestApiCallTest.test_cache_utils_hostname_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biometricservice_library" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestApiCallTest" />
+      <option name="METHOD_NAME" value="test_cache_utils_hostname_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestApiCallTest.test_ping_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biometricservice_library" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestApiCallTest" />
+      <option name="METHOD_NAME" value="test_ping_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,6 +281,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RestApiCallTest.test_cache_utils_hostname_ok" />
+      <item itemvalue="JUnit.RestApiCallTest.test_ping_ok" />
+      <item itemvalue="JUnit.RestApiCallTest.testPingOk" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RestApiCallTest.testPingOk" />
+        <item itemvalue="JUnit.RestApiCallTest.test_ping_ok" />
+        <item itemvalue="JUnit.RestApiCallTest.test_cache_utils_hostname_ok" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -230,12 +304,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566596952204</updated>
-      <workItem from="1566596956380" duration="986000" />
+      <workItem from="1566596956380" duration="4582000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 04m 56s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 05m 33s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 05m 55s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 07m 36s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 08m 57s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 09m 41s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 10m 36s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 12m 27s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_test_ping_ok - 2019.08.24 at 21h 12m 29s.xml">
+      <configuration name="RestApiCallTest.test_ping_ok" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestApiCallTest_testPingOk - 2019.08.24 at 21h 13m 01s.xml">
+      <configuration name="RestApiCallTest.testPingOk" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="986000" />
+    <option name="totallyTimeSpent" value="4582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -246,16 +352,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32879046" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -277,18 +384,72 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>resp.getString(&quot;resp&quot;).toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resp.getString(&quot;resp&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>respException.put(&quot;resp&quot;,resp.value)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>respException.put(&quot;resp&quot;,resp)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>respException.put(&quot;resp&quot;,resp.toString())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resp.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new JSONObject()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resp JSONObject()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new JSONObject(&quot;{&quot;+resp+&quot;}&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new JSONObject(resp)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="120">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biometricservice/library/controller/GetUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="160">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -297,8 +458,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biometricservice/library/service/RestApiCall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="201">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RestApiCallTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
