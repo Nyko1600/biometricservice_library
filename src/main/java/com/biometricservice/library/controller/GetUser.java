@@ -21,6 +21,6 @@ public class GetUser {
   }
 
   private String buildUri(String userId) {
-    return new String("https://test4.ddns.net:8443/fingerService-api/search?user_id"+userId);
+    return new String("https://webserver-domain.ddns.net:8443/fingerService-api/search?user_id"+userId);
   }
 }
